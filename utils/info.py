@@ -18,13 +18,13 @@
 
 import os
 
-API_ID       = int(os.environ.get("API_ID", "12618934"))
-API_HASH     = os.environ.get("API_HASH", "49aacd0bc2f8924add29fb02e20c8a16")
-BOT_TOKEN    = os.environ.get("BOT_TOKEN", "7587045703:AAGIOLfj4mSe8H1rmyqLWtdrotbpnQHewDY")
+API_ID       = int(os.environ.get("API_ID", "21419016"))
+API_HASH     = os.environ.get("API_HASH", "79198e1eb4cfd0f771a89d83b9144e7e")
+BOT_TOKEN    = os.environ.get("BOT_TOKEN", "8383711980:AAFS5hllk8S6ybPm6UYMpHqb8dpa_p9W84o")
 SESSION      = os.environ.get("SESSION", "")
 TIME         = int(os.environ.get("TIME", 10))
 CHATS        = [int(cht) for cht in os.environ.get("CHATS", "").split()]
 WHITE_LIST   = [int(wht) for wht in os.environ.get("WHITE_LIST", "").split()]
 BLACK_LIST   = [int(blk) for blk in os.environ.get("BLACK_LIST", "").split()]
-DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://Nazriya:Nazriya@cluster0.tkpcb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://combtmpxrcws_db_user:aSyDkcTBD6pNF6fT@cluster0.4kosmi0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 PORT         = os.environ.get("PORT", "8080")
